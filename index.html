@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e5a2b2fa25.js" crossorigin="anonymous"></script>
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <!--navbar Area-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./assets/imgs/Netflix_Logo_RGB.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="mx-2 nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="mx-2 nav-link" href="#">TV Show</a>
+              </li>
+              <li class="nav-item">
+                <a class="mx-2 nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="mx-2 nav-link" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="mx-2 nav-link" href="#">My List</a>
+              </li>
+            </ul>
+            <form class="d-flex justify-content-between align-items-center">
+              <i class="mx-3 fa-solid fa-magnifying-glass"></i>
+              <i class="mx-3 fa-solid fa-child"></i>
+              <i class="mx-3 fa-solid fa-bell"></i>
+              <img src="./assets/imgs/149071.png" class="profile mx-3" alt="profile">
+              <span></span>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Film area-->
+      <div class="Shows d-flex">
+        <h2 class="text-light">TV Shows</h2>
+        <div class="mx-5 dropdown transpertbutton">
+          <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Genres
+          </button>
+          <ul class="dropdown-menu bg-dark">
+            <li><button class="dropdown-item" type="button">Action</button></li>
+            <li><button class="dropdown-item" type="button">Horror</button></li>
+            <li><button class="dropdown-item" type="button">Commedian</button></li>
+          </ul>
+        </div>
+      </div>
+      <section class="videostitle">
+        <span class="text-light fw-bold h4">Trending Now</span>
+      </section>
+      <div class="wrapper">
+        <section id="section1">
+          <a href="#section3" class="arrow__btn">‹</a>
+          <div class="item">
+          <img src="./assets/imgs/movies/1.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/2.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/3.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/4.png" class="movie-box" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/5.png" class="movie-box" alt="Describe Image">
+        </div>
+          <a href="#section2" class="arrow__btn">›</a>
+        </section>
+        <section id="section2">
+          <a href="#section1" class="arrow__btn">‹</a>
+          <div class="item">
+          <img src="./assets/imgs/movies/6.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/7.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/8.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/9.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/10.png" class="movie-box" alt="Describe Image">
+        </div>
+          <a href="#section3" class="arrow__btn">›</a>
+        </section>
+        <section id="section3">
+          <a href="#section2" class="arrow__btn">‹</a>
+          <div class="item">
+          <img src="./assets/imgs/movies/11.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/12.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/13.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/14.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/15.png" class="movie-box" alt="Describe Image">
+        </div>
+          <a href="#section1" class="arrow__btn">›</a>
+        </section>
+      </div>
+      <section class="videostitle">
+        <span class="text-light fw-bold h4">Watch It Again</span>
+      </section>
+      <div class="wrapper">
+        <section id="section2">
+          <a href="#section3" class="arrow__btn">‹</a>
+          <div class="item">
+          <img src="./assets/imgs/movies/16.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/17.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/18.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/15.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/14.png" class="movie-box" alt="Describe Image">
+        </div>
+          <a href="#section2" class="arrow__btn">›</a>
+        </section>
+        <section id="section2">
+          <a href="#section1" class="arrow__btn">‹</a>
+          <div class="item">
+          <img src="./assets/imgs/movies/13.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/12.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/11.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/10.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/9.png" class="movie-box" alt="Describe Image">
+        </div>
+          <a href="#section3" class="arrow__btn">›</a>
+        </section>
+        <section id="section3">
+          <a href="#section2" class="arrow__btn">‹</a>
+          <div class="item">
+          <img src="./assets/imgs/movies/8.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/7.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/6.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/5.png" class="movie-box" alt="Describe Image">
+        </div>
+          <div class="item">
+          <img src="./assets/imgs/movies/4.png" class="movie-box" alt="Describe Image">
+        </div>
+          <a href="#section2" class="arrow__btn">›</a>
+        </section>
+      </div>
+      <section class="videostitle">
+        <span class="text-light fw-bold h4">New Releases</span>
+      </section>
+      <div class="wrapper">
+  <section id="section3">
+    <a href="#section3" class="arrow__btn">‹</a>
+    <div class="item">
+    <img src="./assets/imgs/movies/10.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/11.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/12.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/9.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/8.png" class="movie-box"  alt="Describe Image">
+  </div>
+    <a href="#section2" class="arrow__btn">›</a>
+  </section>
+  <section id="section2">
+    <a href="#section1" class="arrow__btn">‹</a>
+    <div class="item">
+    <img src="./assets/imgs/movies/13.png" class="movie-box"  alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/14.png"  class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/15.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/7.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/6.png" class="movie-box" alt="Describe Image">
+  </div>
+    <a href="#section3" class="arrow__btn">›</a>
+  </section>
+  <section id="section3">
+    <a href="#section2" class="arrow__btn">‹</a>
+    <div class="item">
+    <img src="./assets/imgs/movies/16.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/17.png" class="movie-box"  alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/18.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/5.png" class="movie-box" alt="Describe Image">
+  </div>
+    <div class="item">
+    <img src="./assets/imgs/movies/4.png" class="movie-box" alt="Describe Image">
+  </div>
+    <a href="#section3" class="arrow__btn">›</a>
+  </section>
+</div>
+        <footer>
+          <div class="footer-col">
+            
+            <ul>
+                <li><a href="#">Audio and Subtitles</a></li>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <ul>
+                <li><a href="#">Audio Description</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                <li><a href="#">Gift Cards</a></li> 
+            </ul>
+        </div>
+        <div class="footer-col">
+            
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Prefenceres</a></li>
+                <li><a href="#">Corporate Information</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            
+            <div class="links">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        </footer>
+        <button type="button" class="service btn btn-secondary bg-dark">Service Code</button>
+        <div class="final">
+          <p class="aa">1967-2019 Netflix, Inc.{i-0d00fcda2fdf9c0de}</p>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
